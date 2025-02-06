@@ -5,7 +5,7 @@ import developerProfile from '../../assets/images/developer/nabil.png'
 
 const HeroSection = () => {
     return (
-        <section id='hero_section' className='my-30'>
+        <section id='hero_section' className='mt-30 mb-20'>
             <div className="container flex items-center">
                 <div className='flex flex-col gap-7 w-7/12'>
                     <h2 className='text-5xl font-bold text-[#2a1454]'>I am Nabil Siddik</h2>
