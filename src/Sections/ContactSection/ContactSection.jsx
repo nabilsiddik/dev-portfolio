@@ -8,12 +8,12 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const ContactSection = () => {
     return (
-        <div id='contact' className='my-20 bg-[#f6f3fc] py-20'>
+        <div id='contact' className='mt-20 bg-[#f6f3fc] py-20'>
             <div className="container">
                 <SectionHeader title='Let’s Get In Touch' description={'Here are simple ways to contact me.'} />
 
-                <div className="flex items-stretch gap-10">
-                    <div className='border border-primary py-16 px-20 rounded-lg w-6/12'>
+                <div className="flex md:flex-row items-stretch gap-10 flex-col">
+                    <div className='border border-primary py-16 px-7 md:px-5 lg:px-20 rounded-lg w-full md:w-6/12'>
                         <div className='flex h-full justify-center flex-col'>
                             <div className='mb-10 border-b border-primary'>
                                 <IconList icon={<FaEnvelope />
@@ -30,7 +30,7 @@ const ContactSection = () => {
                         </div>
                     </div>
 
-                    <div className="contact-form w-6/12">
+                    <div className="contact-form w-full md:w-6/12">
                         <form>
                             <div className="input-gorup">
                                 <div className='flex items-center gap-5'>

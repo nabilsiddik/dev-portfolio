@@ -38,17 +38,17 @@ const EducationSection = () => {
             <TimelineContent sx={{ py: '30px', px: 2 }}>
               <div className='text-primary mb-5'>
                 <Typography variant="h3" component="span">
-                  <h3 className='font-bold'>Educational Qualification</h3>
+                  <h3 className='font-bold text-3xl md:text-5xl'>Education</h3>
                 </Typography>
               </div>
               <div>
                 <Typography variant="h6" component="span">
-                  <p className='font-bold mb-1'><span className='text-primary'>Degree:</span> B.sc. in Computer Science and Engineering</p>
+                  <p className='font-bold mb-1 text-lg md:text-xl'><span className='text-primary text-lg md:text-xl'>Degree:</span> B.sc. in Computer Science and Engineering</p>
                 </Typography>
               </div>
               <div>
                 <Typography variant="h6" component="span">
-                  <p className='font-bold'><span className='text-primary'>Institution:</span> Bangladesh University of Business and Technology.</p>
+                  <p className='font-bold text-lg md:text-xl'><span className='text-primary text-lg md:text-xl'>Institution:</span> Bangladesh University of Business and Technology.</p>
                 </Typography>
               </div>
               <Typography>
@@ -79,12 +79,12 @@ const EducationSection = () => {
             <TimelineContent sx={{ py: '30px', px: 2 }}>
               <div className='text-primary mb-5'>
                 <Typography variant="h3" component="span">
-                  <h3 className='font-bold'>Experience</h3>
+                  <h3 className='font-bold text-3xl md:text-5xl'>Experience</h3>
                 </Typography>
               </div>
               <div>
                 <Typography variant="h6" component="span">
-                  <p className='font-bold mb-3'>Freelancing</p>
+                  <p className='font-bold mb-3 text-lg md:text-xl'>Freelancing</p>
                 </Typography>
               </div>
               <Typography>
@@ -112,17 +112,17 @@ const EducationSection = () => {
             <TimelineContent sx={{ py: '30px', px: 2 }}>
               <div className='text-primary mb-5'>
                 <Typography variant="h3" component="span">
-                  <h3 className='font-bold'>Courses</h3>
+                  <h3 className='font-bold text-3xl md:text-5xl'>Courses</h3>
                 </Typography>
               </div>
               <div>
                 <Typography variant="h6" component="span">
-                  <p className='font-bold mb-1'><span className='text-primary'>Title:</span> Full Stack Web Development (MERN)</p>
+                  <p className='font-bold mb-1 text-lg md:text-xl'><span className='text-primary'>Title:</span> Full Stack Web Development (MERN)</p>
                 </Typography>
               </div>
               <div>
                 <Typography variant="h6" component="span">
-                  <p className='font-bold'><span className='text-primary'>Institute:</span> Programming Hero</p>
+                  <p className='font-bold'><span className='text-primary text-lg md:text-xl'>Institute:</span> Programming Hero</p>
                 </Typography>
               </div>
               <Typography>

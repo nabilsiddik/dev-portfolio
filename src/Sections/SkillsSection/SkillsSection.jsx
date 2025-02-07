@@ -15,7 +15,7 @@ const SkillsSection = () => {
             <div className="container">
                 <SkillsTab skillType={skillType} setSkillType={setSkillType} />
 
-                <div className='grid grid-cols-5 gap-5 mt-10'>
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-5 mt-10'>
                     {skillType === 'frontend' && skills[0].frontend.map((skill, index) => {
                         return <SkillBox key={index} skill={skill} />
                     })}
