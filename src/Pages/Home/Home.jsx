@@ -6,17 +6,19 @@ import LanguagesSection from '@/Sections/LanguagesSection/LanguagesSection'
 import ProjectSection from '@/Sections/ProjectSection/ProjectSection'
 import SkillsSection from '@/Sections/SkillsSection/SkillsSection'
 import React from 'react'
+import { useOutletContext } from 'react-router-dom'
 
 const Home = () => {
+  const { scrollToSection, refs } = useOutletContext();
   return (
     <div className='home_page'>
-      <HeroSection/>
+      <HeroSection ref={refs.heroRef}/>
       <LanguagesSection/>
-      <AboutSection/>
-      <SkillsSection/>
-      <EducationSection/>
-      <ProjectSection/>
-      <ContactSection/>
+      <AboutSection ref={refs.aboutRef}/>
+      <SkillsSection ref={refs.skillsRef}/>
+      <EducationSection ref={refs.educationRef}/>
+      <ProjectSection ref={refs.projectsRef}/>
+      <ContactSection ref={refs.contactRef}/>
     </div>
   )
 }

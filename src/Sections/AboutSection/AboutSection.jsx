@@ -1,11 +1,11 @@
 import SectionHeader from '@/Components/SectionHeader'
-import React from 'react'
+import React, { forwardRef } from 'react'
 import aboutImage from '../../assets/images/developer/about-me.jpg'
 import Button from '@/Components/Button'
 
-const AboutSection = () => {
+const AboutSection = forwardRef((props, ref) => {
     return (
-        <section id='about_section' className='my-20 bg-[#f6f3fc] py-20'>
+        <section ref={ref} id='about_section' className='mt-0 my-10 bg-[#f6f3fc] py-20'>
             <SectionHeader title='About Me' description='Here is a short description of who I am, What I am doing and How I started.' />
 
             <div className="container flex items-center gap-10 flex-col md:flex-row">
@@ -26,6 +26,6 @@ const AboutSection = () => {
             </div>
         </section>
     )
-}
+})
 
 export default AboutSection

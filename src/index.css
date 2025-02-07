@@ -10,6 +10,9 @@
 body{
     font-family: "Sora", serif;
     font-size: 18px;
+    color: #000;
+    background: #fff;
+    overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6, p, span, a{
     font-family: "Sora", serif;
@@ -19,7 +22,9 @@ h1, h2, h3, h4, h5, h6, p, span, a{
     margin: 0 auto;
     padding: 0 15px;
 }
-
+input[type='text'], input[type='email'], input[type='number'], textarea{
+    background: #fff;
+}
 /* h1{
     font-size: 65px;
 }

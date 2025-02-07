@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
         <div className='mt-5'>
-          <p className='text-white'>© 2025 All Rights Reserved by Nabil Siddik</p>
+          <p className='text-white text-center'>© 2025 All Rights Reserved by Nabil Siddik</p>
         </div>
       </div>
     </footer>

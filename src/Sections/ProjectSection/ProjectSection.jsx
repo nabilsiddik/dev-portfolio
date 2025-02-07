@@ -1,14 +1,14 @@
 import ProjectCard from '@/Components/ProjectCard'
 import SectionHeader from '@/Components/SectionHeader'
-import React, { useState } from 'react'
+import React, { forwardRef, useState } from 'react'
 import ProjectTab from '@/Components/ProjectTab'
 import { projects } from '@/Data/projects'
 
-const ProjectSection = () => {
+const ProjectSection = forwardRef((props, ref) => {
   const [projectType, setProjectType] = useState('intermediate')
 
   return (
-    <div id='project_section' className='my-20'>
+    <div ref={ref} id='project_section' className='my-20 bg-white'>
       <SectionHeader title='My Recent Works' description='Here are some recent of mine. You are welcome to explore them.' />
 
       <div className="container">
@@ -26,6 +26,6 @@ const ProjectSection = () => {
       </div>
     </div>
   )
-}
+})
 
 export default ProjectSection

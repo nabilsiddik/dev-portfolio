@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import {
   Timeline, TimelineItem, TimelineSeparator,
   TimelineConnector, TimelineDot, TimelineOppositeContent,
@@ -14,9 +14,9 @@ import { FaGraduationCap } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 
 
-const EducationSection = () => {
+const EducationSection = forwardRef((props, ref) => {
   return (
-    <section id='education_section' className='py-20 bg-[#f6f3fc] flex items-center justify-center'>
+    <section ref={ref} id='education_section' className='md:py-20 py-10 bg-[#f6f3fc] flex items-center justify-center'>
       <div className="container">
         <Timeline position="alternate">
           <TimelineItem>
@@ -138,6 +138,6 @@ const EducationSection = () => {
       </div>
     </section>
   )
-}
+})
 
 export default EducationSection
