@@ -12,7 +12,9 @@ const HeroSection = () => {
                     <h1 className='text-7xl font-bold text-primary'>Full-Stack <br /> Web Developer</h1>
                     <p>I'm a dedicated, experienced full-stack web developer passionate about creating modern, responsive, and visually appealing websites tailored to your needs. With a proven track record and a portfolio of successful projects (available on my profile), I aim to provide high-quality web development services that exceed client expectations.</p>
                     <div>
-                        <Button icon={<FaDownload />} text={'Download Resume'} />
+                        <a href="/public/Resume.pdf" download='Resume.pdf'>
+                            <button className='btn px-10 py-6 text-lg rounded-full bg-gradient-to-r from-[#8750f7] to-[#2a1454] text-white hover:from-[#2a1454] hover:to-[#8750f7] transition duration-300 ease-in-out'><span>Download Resume</span> <span className='ml-2'><FaDownload/></span> </button>
+                        </a>
                     </div>
                 </div>
 

@@ -1,3 +1,4 @@
+import AboutSection from '@/Sections/AboutSection/AboutSection'
 import HeroSection from '@/Sections/HeroSection/HeroSection'
 import LanguagesSection from '@/Sections/LanguagesSection/LanguagesSection'
 import React from 'react'
@@ -7,6 +8,7 @@ const Home = () => {
     <div className='home_page'>
       <HeroSection/>
       <LanguagesSection/>
+      <AboutSection/>
     </div>
   )
 }
