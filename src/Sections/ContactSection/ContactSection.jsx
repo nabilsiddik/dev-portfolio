@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const ContactSection = () => {
     return (
-        <div id='contact' className='my-20'>
+        <div id='contact' className='my-20 bg-[#f6f3fc] py-20'>
             <div className="container">
                 <SectionHeader title='Let’s Get In Touch' description={'Here are simple ways to contact me.'} />
 
