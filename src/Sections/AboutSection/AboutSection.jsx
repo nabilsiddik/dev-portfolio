@@ -10,7 +10,7 @@ const AboutSection = () => {
 
             <div className="container flex items-center gap-10">
                 <div className="w-5/12">
-                    <img className='rounded-lg shadow-lg h-[600px] ml-auto' src={aboutImage} alt="about nabil siddik" />
+                    <img className='rounded-lg shadow-lg ml-auto' src={aboutImage} alt="about nabil siddik" />
                 </div>
                 <div className="w-7/12">
                     <p className='mb-3'>I am a Full Stack Web Developer, Working in this industry since 2019. From the begening I was a fan of programming. That's the reason I came to this industry. I started with Javascript and Webdesign. Day by day I improved myself and now I am in full stack.</p>
