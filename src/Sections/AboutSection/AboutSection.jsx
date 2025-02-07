@@ -5,7 +5,7 @@ import Button from '@/Components/Button'
 
 const AboutSection = () => {
     return (
-        <section id='about_section' className='my-20'>
+        <section id='about_section' className='my-20 bg-[#f6f3fc] py-20'>
             <SectionHeader title='About Me' description='Here is a short description of who I am, What I am doing and How I started.' />
 
             <div className="container flex items-center gap-10">

@@ -1,4 +1,5 @@
 import AboutSection from '@/Sections/AboutSection/AboutSection'
+import EducationSection from '@/Sections/EducationSection/EducationSection'
 import HeroSection from '@/Sections/HeroSection/HeroSection'
 import LanguagesSection from '@/Sections/LanguagesSection/LanguagesSection'
 import SkillsSection from '@/Sections/SkillsSection/SkillsSection'
@@ -11,6 +12,7 @@ const Home = () => {
       <LanguagesSection/>
       <AboutSection/>
       <SkillsSection/>
+      <EducationSection/>
     </div>
   )
 }

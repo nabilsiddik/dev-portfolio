@@ -16,20 +16,20 @@ const SkillsSection = () => {
                 <SkillsTab skillType={skillType} setSkillType={setSkillType} />
 
                 <div className='grid grid-cols-5 gap-5 mt-10'>
-                    {skillType === 'frontend' && skills[0].frontend.map((skill) => {
-                        return <SkillBox skill={skill} />
+                    {skillType === 'frontend' && skills[0].frontend.map((skill, index) => {
+                        return <SkillBox key={index} skill={skill} />
                     })}
 
-                    {skillType === 'backend' && skills[0].backend.map((skill) => {
-                        return <SkillBox skill={skill} />
+                    {skillType === 'backend' && skills[0].backend.map((skill, index) => {
+                        return <SkillBox key={index} skill={skill} />
                     })}
 
-                    {skillType === 'tools' && skills[0].tools.map((skill) => {
-                        return <SkillBox skill={skill} />
+                    {skillType === 'tools' && skills[0].tools.map((skill, index) => {
+                        return <SkillBox key={index} skill={skill} />
                     })}
 
-                    {skillType === 'languages' && skills[0].languages.map((skill) => {
-                        return <SkillBox skill={skill} />
+                    {skillType === 'languages' && skills[0].languages.map((skill, index) => {
+                        return <SkillBox key={index} skill={skill} />
                     })}
                 </div>
             </div>
